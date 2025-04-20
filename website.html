@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LayerForge Creations</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #282c34;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      background: #444;
+      color: white;
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+    }
+    main {
+      padding: 2rem;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #282c34;
+      color: white;
+    }
+    .card {
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .product {
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+    }
+    .product img {
+      width: 250px;
+      border-radius: 8px;
+    }
+    .product-info {
+      max-width: 500px;
+    }
+    button {
+      padding: 0.5rem 1rem;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>LayerForge Creations</h1>
+    <p>Precision. Creativity. Personalization.</p>
+  </header>
+
+  <nav>
+    <a href="about.html">About</a>
+    <a href="mission.html">Mission</a>
+    <a href="designs.html">Our Designs</a>
+    <a href="requests.html">Custom Requests</a>
+    <a href="contact.html">Contact</a>
+    <a href="purchase.html">Purchase</a>
+  </nav>
+
+  <main>
+    <section class="card">
+      <h2>Featured Product: Eagle Figurine</h2>
+      <div class="product">
+        <img src="eagle-figurine.jpg" alt="Eagle Figurine">
+        <div class="product-info">
+          <h3>Handcrafted Eagle Figurine</h3>
+          <p>This majestic eagle model showcases detailed feathering and dynamic posture, perfect for desktop decoration or gifting. Designed in-house and printed using high-quality PLA filament with precision FDM technology.</p>
+          <p><strong>Price:</strong> $25.00</p>
+          <button onclick="alert('Order placed! You will be contacted via email.')">Purchase</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 LayerForge Creations | Created and managed by Erick Gunther</p>
+  </footer>
+</body>
+</html>
